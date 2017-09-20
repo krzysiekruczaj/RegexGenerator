@@ -1,0 +1,4 @@
+include 'console',
+		'male',
+		'random'
+rootProject.name = 'RegexGenerator'

@@ -1,0 +1,5 @@
+dependencies {
+	compile project(':male')
+	// https://mvnrepository.com/artifact/com.google.code.gson/gson
+	compile group: 'com.google.code.gson', name: 'gson', version: '2.2.4'
+}
