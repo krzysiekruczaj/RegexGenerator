@@ -1,3 +1,21 @@
+## This is actually fork of original [RegexGenerator](https://github.com/MaLeLabTs/RegexGenerator), created by [MaLeLabTs](https://github.com/MaLeLabTs).
+
+Changes:
+1. Migrated project to Gradle.
+1. Added Gradle Wrapper.
+
+Usage:
+1. Build JAR:
+```
+./gradlew clean console:shadowJar
+```
+2. Output file contains all dependencies and is located in `console/build/libs/console-all.jar`.
+3. Running console version from shell:
+```
+java -jar console-all.jar $PARAMS
+```
+
+
 # RegexGenerator
 
 This project contains the source code of a tool for generating regular expressions for text extraction and classification (flagging):
