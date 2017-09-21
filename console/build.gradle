@@ -1,3 +1,9 @@
 dependencies {
 	compile project(':random')
 }
+
+jar {
+	manifest {
+		attributes 'Main-Class': 'it.units.inginf.male.console.ConsoleRegexTurtle'
+	}
+}
